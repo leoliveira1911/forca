@@ -27,7 +27,7 @@ function stringToLetterModel() {
 
     let word = words[rand]
     let wordArray = [...word] 
-    console.log(word)
+    
     let letterModelArray = []
 
     wordArray.map((letter)=>{
