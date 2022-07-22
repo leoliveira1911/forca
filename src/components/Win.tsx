@@ -16,7 +16,7 @@ export default function Win(props:WinProps) {
     return(
         <div className="flex flex-col justify-center items-center
         h-screen w-screen bg-slate-600">
-            <img src={'https://i.gifer.com/ho.gif'} />
+            <img src={'https://i.gifer.com/ho.gif'} alt='CONGRATS, CHAMP' />
             <h1 className="text-2xl mt-5 mb-3">PARABÉNS, VOCÊ VENCEU! </h1>
             <Word word={word}/>
             <button onClick={restart} className={`

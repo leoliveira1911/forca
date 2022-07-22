@@ -4,7 +4,7 @@ interface LetterProps {
     className?: string
     letter: LetterModel
     onClick?:(e:string) => void
-    key?: number
+    key?: any
 }
 
 export default function Letter(props: LetterProps) {
