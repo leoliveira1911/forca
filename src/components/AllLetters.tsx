@@ -14,7 +14,7 @@ export default function AllLetters(props: AllLettersProps) {
             {allLetters.map((letter, i) => {
                 const printValue = new LetterModel(`${letter}` )
                 return (
-                    <Letter onClick={()=>props.onClick(printValue.value)} className="cursor-pointer" key={letter} letter={printValue} />
+                    <Letter onClick={()=>props.onClick(printValue.value) } className="cursor-pointer" key={letter} letter={printValue} />
                 )
             })}
 
